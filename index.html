@@ -1,49 +1,36 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>KreativePixel Website Template | Home :: w3layouts</title>
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
-		<!----webfonts---->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet'
-        var link;
-        type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' ---animate;type='text/css'>
-		<!----//webfonts---->
-		<!-animate-header--->
-		 <link href="css/animate.css" rel="stylesheet" type="text/css" />
-		 <!---animate-header--->
-		<!---slider---->
+<head>
+    <title>KreativePixel Website Template | Home :: w3layouts</title>
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    </script>
 
-		<script
-        src="js/jquery.min.js">
-        </script>
-		<link rel="stylesheet" href="css/slippry.css">
-		<link href="css/contact.css" rel='stylesheet' type='text/css' />
-		<script src="js/jquery-ui.js" type="text/javascript"></script>
-		<script src="js/scripts-f0e4e0c2.js" type="text/javascript"></script>
-		<script>
-			  jQuery('#jquery-demo').slippry({
-			  // general elements & wrapper
-			  slippryWrapper: '<div class="sy-box jquery-demo" />', // wrapper to wrap everything, including pager
-			  // options
-			  adaptiveHeight: false, // height of the sliders adapts to current slide
-			  useCSS: false, // true, false -> fallback to js if no browser support
-			  autoHover: false,
-			  transition: 'fade'
-			});
-		</script>
-
-        <!---scrooling-script--->
-		<!---smoth-scrlling---->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+            <!----//webfonts---->
+            <!--- //animate-header --->
+            <link href="css/animate.css" rel="stylesheet" type="text/css" />
+            <!---//animate-header--->
+            <!---//slider---->
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/slippry.css">
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script src="js/scripts-f0e4e0c2.js" type="text/javascript"></script>
+    <script>
+        jQuery('#jquery-demo').slippry({
+            // general elements & wrapper
+            slippryWrapper: '<div class="sy-box jquery-demo" />', // wrapper to wrap everything, including pager
+            // options
+            adaptiveHeight: false, // height of the sliders adapts to current slide
+            useCSS: false, // true, false -> fallback to js if no browser support
+            autoHover: false,
+            transition: 'fade'
+        });
+    </script>
+    <!---scrooling-script--->
+    <!---smoth-scrlling---->
         <script type="text/javascript">
             $(document).ready(function () {
                 $('a[href^="#"]').on('click', function (e) {
@@ -161,7 +148,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<h3><span>Check Out</span>Features</h3>
 							<i> </i>
 							<div data-scroll-reveal="enter bottom but wait 0.7s" class="top-grids-box">
-								<div data-scroll-reveal="enter top over 0.7s after 0.7s" class="top-grid">
+								<div data-scroll-reveal="enter top over 0.7s" class="top-grid">
 									<a class="icon1" href="#"><span> </span></a>
 									<h4><a href="#">Mobile Ready</a></h4>
 									<p> Lorem ipsum dolor sit amet, consectetur adipisc ing. Aliquam viverra   dolor sit consectetur nibh a blan.</p>
@@ -223,7 +210,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							$(document).ready(function() {
 								$('.fade').hover(
 									function(){
-										$(this).find('.caption').fadeIn(250);
+                                        $(this).find('.caption').fadeIn(25);
 									},
 									function(){
 										$(this).find('.caption').fadeOut(250);
