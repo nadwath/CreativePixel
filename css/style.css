@@ -104,7 +104,7 @@ img {
 /*end reset*/
 body {
     font-family: 'Open Sans', sans-serif;
-    background: #FFF;
+    /*background: #FFF;*/
     background: url(../images/banner.jpg) repeat-x 0px 0px #fff;
 }
 
@@ -159,6 +159,7 @@ body {
 }
 
 /*----start-header---*/
+
 /*--- start-top-grids----*/
 .top-grids {
     background: #E66768;
@@ -310,6 +311,7 @@ body {
 }
 
 /*--- start-top-grids----*/
+
 /*----start-works----*/
 .works {
     position: relative;
@@ -342,6 +344,54 @@ body {
     position: absolute;
     top: 0px;
     left: 44.8%;
+}
+
+.artical-grid {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.artical-grid:nth-child(3) {
+    margin-right: 0;
+}
+
+.admin1 img {
+    border-radius: 30em;
+    -webkit-border-radius: 30em;
+    -moz-border-radius: 30em;
+    -o-border-radius: 30em;
+}
+
+.artical-grid-head {
+    position: relative;
+}
+
+.post-pic {
+    position: relative;
+}
+
+.admin1 {
+    position: absolute;
+    bottom: -18%;
+    left: 39%;
+}
+
+.artical-info {
+    margin-top: 3.5em;
+}
+
+.poston {
+    color: #E66768;
+}
+
+.artical-info p {
+    color: #6E6E6E;
+    padding: 1em 0;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.95em;
 }
 
 /*----works-grid-caption----*/
